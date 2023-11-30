@@ -29,12 +29,19 @@
 .
 ├── application
 │   └── AndroidApp.kt
-├── data
-│   ├── Login.kt
-│   └── User.kt
 ├── di
 │   └── AppModule.kt
 ├── domain
+│   ├── data
+│   │   ├── AuthManager.kt
+│   │   ├── AuthSource.kt
+│   │   ├── FirebaseAuthSource.kt
+│   │   ├── Login.kt
+│   │   └── User.kt
+│   └── repository.kt
+│       ├── AuthRepository.kt
+│       ├── AuthRepositoryImpl.kt
+│       └── UserRepository.kt
 ├── presentation
 │   ├── MainActivity.kt
 │   └── MainViewModel.kt
