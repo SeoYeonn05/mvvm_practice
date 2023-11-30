@@ -25,22 +25,23 @@
 
 
 ## 구조
-	
-	.
-	├── application
-	│   └── AndroidApp.kt
-	├── data
-	│   ├── Login.kt
-	│   └── User.kt
-	├── di
-	│   └── AppModule.kt
-	├── domain
-	├── presentation
-	│   ├── MainActivity.kt
-	│   └── MainViewModel.kt
-	└── ui
-	    └── theme
-	        ├── Color.kt
-	        ├── Shape.kt
-	        ├── Theme.kt
-	        └── Type.kt
+```
+.
+├── application
+│   └── AndroidApp.kt
+├── data
+│   ├── Login.kt
+│   └── User.kt
+├── di
+│   └── AppModule.kt
+├── domain
+├── presentation
+│   ├── MainActivity.kt
+│   └── MainViewModel.kt
+└── ui
+    └── theme
+        ├── Color.kt
+        ├── Shape.kt
+        ├── Theme.kt
+        └── Type.kt
+```
