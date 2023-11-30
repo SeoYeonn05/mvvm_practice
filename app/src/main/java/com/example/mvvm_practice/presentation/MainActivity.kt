@@ -1,4 +1,4 @@
-package com.example.mvvm_practice
+package com.example.mvvm_practice.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
